@@ -19,6 +19,7 @@
 		AF84075D19C1792200E5B9ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF84074519C1792200E5B9ED /* UIKit.framework */; };
 		AF84076519C1792200E5B9ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF84076319C1792200E5B9ED /* InfoPlist.strings */; };
 		AF84076719C1792200E5B9ED /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84076619C1792200E5B9ED /* ViewTestTests.m */; };
+		AF84077219C179DE00E5B9ED /* MSSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84077119C179DE00E5B9ED /* MSSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		AF84076219C1792200E5B9ED /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		AF84076419C1792200E5B9ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF84076619C1792200E5B9ED /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		AF84077019C179DE00E5B9ED /* MSSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSimpleView.h; sourceTree = "<group>"; };
+		AF84077119C179DE00E5B9ED /* MSSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				AF84075019C1792200E5B9ED /* MSAppDelegate.h */,
 				AF84075119C1792200E5B9ED /* MSAppDelegate.m */,
+				AF84077019C179DE00E5B9ED /* MSSimpleView.h */,
+				AF84077119C179DE00E5B9ED /* MSSimpleView.m */,
 				AF84075319C1792200E5B9ED /* Images.xcassets */,
 				AF84074819C1792200E5B9ED /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				AF84075219C1792200E5B9ED /* MSAppDelegate.m in Sources */,
 				AF84074E19C1792200E5B9ED /* main.m in Sources */,
+				AF84077219C179DE00E5B9ED /* MSSimpleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
